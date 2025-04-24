@@ -6,12 +6,12 @@
 
                  RECOMPILED BUG FIX BY FUNKYCRUNCHY
 
-Microsoft PID Checker
+                     Microsoft PID Checker
 
-Version: 1.49
+                        Version: 1.49
 
-Author: USER_HIDDEN
+                      Author: USER_HIDDEN
 
-Recompiler: FunkyCrunchy
+                   Recompiler: FunkyCrunchy
 
 

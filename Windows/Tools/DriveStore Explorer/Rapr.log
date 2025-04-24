@@ -1,0 +1,14 @@
+2025-04-24 09:56:42Z [Error]: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\ChrisMcClleland\AppData\Local\Rapr\Rapr.exe_StrongName_2qkvgjdh5q4milxp1wrxvzhaovxuvdyo'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.EnumerateDirectories(String searchPattern, SearchOption searchOption)
+   at Rapr.Program.CleanUpOldConfig()
+   at Rapr.Program.Main()
+2025-04-24 09:56:42Z [Information]: ---------------------------------------------------------------
+2025-04-24 09:56:42Z [Information]: Rapr started
+2025-04-24 09:56:42Z [Information]: Scanning driver store...
+2025-04-24 09:56:43Z [Information]: Ready
+2025-04-24 09:57:21Z [Information]: Selected 1 Driver(s). Total size: 100 MB.
+oem107.inf - 6ww77jm.inf_amd64_7822b516e8b39478 - 100 MB
+2025-04-24 12:37:46Z [Information]: Shutting down - reason UserClosing
