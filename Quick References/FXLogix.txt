@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------------------------------------------
+                                      _____ ____  _                _      
+                                     |  ___/ ___|| |    ___   __ _(_)_  __
+                                     | |_  \___ \| |   / _ \ / _` | \ \/ /
+                                     |  _|  ___) | |__| (_) | (_| | |>  < 
+                                     |_|   |____/|_____\___/ \__, |_/_/\_\
+                                                             |___/        
+-------------------------------------------------------------------------------------------------------------------
+Useful FXLogix Information
+
+--------------------------
+PROFILE CONTAINERS:
+--------------------------
+
+FSLogix profile containers store a complete user profile, including all data related to the user's profile, which is typically located in C:\Users\username. 
+
+--------------------------
+LOGS:
+--------------------------
+
+FSLogix logs are stored in C:\ProgramData\FSLogix\Logs. Specifically, profile logs are found in C:\ProgramData\FSLogix\Logs\Profile. 
+
+--------------------------
+CONFIGURARTION TOOL:
+--------------------------
+
+The FSLogix configuration tool, configurationtool.exe, is located at C:\Program Files\FSLogix\Apps. 
+
+--------------------------
+FRX UTILITY:
+--------------------------
+
+The frx command-line utility is also in the same directory, C:\Program Files\FSLogix\Apps. 
+
+--------------------------
+REGISTRY SETTINGS:
+--------------------------
+
+FSLogix configuration settings can also be found in the Registry, specifically under HKEY_LOCAL_MACHINE\SOFTWARE\FSLogix\Profiles. 
+
+--------------------------
+VHD(x) LOCATION:
+--------------------------
+
+FSLogix profile containers store data in a Virtual Hard Disk (VHD or VHDX) file. The path to this file is configured in the registry under HKEY_LOCAL_MACHINE\SOFTWARE\FSLogix\Profiles\VHDLocation. 
